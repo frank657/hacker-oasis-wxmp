@@ -10,12 +10,6 @@ Page({
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
 
-  goToProjectsPage: function () {
-      wx.switchTab({
-        url: '/pages/projects/projects'
-      })
-  },
-
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
@@ -57,7 +51,7 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
-  }
+  },
   goToProjects: function (e) {
     console.log(e);
     wx.switchTab({
