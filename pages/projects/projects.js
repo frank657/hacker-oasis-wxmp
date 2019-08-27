@@ -22,21 +22,7 @@ Page({
           page.setData(res.data);
         }
       })
-    },
-    clickMe:function(e) {
-      console.log(e);
-      wx.request({
-        url: 'http://localhost:3000/api/v1/projects',
-        sucess: function (res) {
-          console.log(111, res.data);
-
-          page.setData({
-            projects: projects
-          });
-        }
-      })
-    },
-
+    },   
   /**
    * Lifecycle function--Called when page is initially rendered
    */
