@@ -2,14 +2,14 @@ page {
   --white: #fff;
   --greyLight: #efefef;
   --grey: #ccc;
-  --greyDark: #999594;
+  --greyDark: #444444;
   --yellow: #F2C94C;
   --orange: #F08302;
-  --red: #a72829;
+  --red: #BF3F50;
   --redLight: #d86964;
   --purple: #d5a2ff;
   --navy: #385466;
-  --blue: #478DE9;
+  --blue: #3A8BBB;
   --blueLight: #96C3FF;
   --green: #76D5AB;
   --teal: #C9DED6;

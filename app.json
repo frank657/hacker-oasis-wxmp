@@ -7,15 +7,19 @@
   ],
   "tabBar": {
     "color": "#ADADAD",
-    "selectedColor": "#478DE9",
+    "selectedColor": "#BF3F50",
     "list": [
       {
         "pagePath": "pages/projects/projects",
-        "text": "未确认"
+        "text": "projects",
+        "iconPath": "/images/tabs/tab1.png",
+        "selectedIconPath": "/images/tabs/tab1-active.png"
       },
       {
         "pagePath": "pages/profile/profile",
-        "text": "已确认"
+        "text": "me",
+        "iconPath": "/images/tabs/tab2.png",
+        "selectedIconPath": "/images/tabs/tab2-active.png"
       }
     ]
   },
