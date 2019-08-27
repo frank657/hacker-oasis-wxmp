@@ -1,2 +1,49 @@
 <!--pages/project_show/project_show.wxml-->
-<text>pages/project_show/project_show.wxml</text>
+<view class="container-page">
+  <view class="header-show">
+    <view>
+      <image class="avatar-large" src="../../images/avatars/bingq.jpg" mode="cover"></image>
+    </view>
+    <view class="header-text">
+      <view>
+        <text class="h1 text-grey-dark">Awesome Project</text>
+      </view>
+      <view>
+        <text class="h3 text-grey">by</text><text class="h3 text-blue"> SeaDragon23</text>
+      </view>
+    </view>
+  </view>
+  <view class="description-project">
+    <view class="img-project-square" style="background-image: url(https://images.unsplash.com/photo-1521737711867-e3b97375f902);">
+    </view>
+    <view class="description-project-text">
+      <text class="p">More about the project, enough to make this take up multiple lines.</text>
+    </view>
+  </view>
+  <view class="info-show-hacksession">
+    <text class="h3 text-blue">NEXT HACK SESSION</text>
+    <text class="h1 text-dark-grey">Sat, 31 Sep</text>
+    <text class="h3 text-dark-grey">10:00AM</text>
+    <view class="row-avatars">
+      <image class="icon-small" src="../../images/icons/users-solid.svg"></image>
+      <image class="avatar-small" src="../../images/avatars/bingq.jpg"></image>
+      <image class="avatar-small" src="../../images/avatars/jimmyc.jpg"></image>
+      <image class="avatar-small" src="../../images/avatars/ericd.jpg"></image>
+      <image class="avatar-small" src="../../images/avatars/nicoleg.jpg"></image>
+    </view>
+  </view>
+  <view class="info-show-address">
+    <image class="icon-small" src="../../images/icons/map-marker-alt-solid.svg"></image>
+    <view class="wrapper-location">
+      <text class="p text-dark-grey">XNode, Huaqiao Mansion, 129 West Yan'an Road, Shanghai</text>
+      <text class="p-small text-grey">1.4km away from you</text>
+    </view>
+  </view>
+  <view class="box-comments">
+    <view class="box-create-comment">
+      <button class="btn btn-comment" bindtap="#">Post a comment</button>
+      <image class="avatar-small" src="../../images/avatars/jimmyc.jpg" style="margin: 0;"></image>
+    </view>
+    
+  </view>
+</view>

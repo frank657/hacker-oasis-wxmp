@@ -1,1 +1,118 @@
 /* pages/project_show/project_show.wxss */
+
+.h1 {
+  font-size: 40rpx;
+  font-weight: bold;
+}
+
+.h3 {
+  font-size: 32rpx;
+  font-weight: bold;
+}
+
+.p {
+  font-size: 24rpx;
+}
+
+.p-small {
+  font-size: 20rpx;
+}
+
+.header-show {
+  display: flex;
+  align-items: center;
+  padding: 0 0 20rpx 0;
+  border-bottom: 1rpx solid var(--greyLight);
+}
+
+.avatar-large {
+  width: 128rpx;
+  height: 128rpx;
+  border-radius: 50%;
+}
+
+.header-text {
+  margin-left: 20rpx;
+}
+
+.description-project {
+  display: flex;
+  padding: 20rpx 0 20rpx 0;
+  border-bottom: 1rpx solid var(--greyLight);
+}
+
+.img-project-square {
+  background-size: cover;
+  background-position: center;
+  width: 224rpx;
+  height: 160rpx;
+  border-radius: 8rpx;
+}
+
+.description-project-text {
+  height: 100%;
+  margin-left: 20rpx;
+}
+
+.info-show-hacksession {
+  display: flex;
+  flex-direction: column;
+  padding: 20rpx 0 20rpx 0;
+  border-bottom: 1rpx solid var(--greyLight);
+}
+
+.row-avatars {
+  display: flex;
+  align-items: center;
+  margin-top: 20rpx;
+}
+
+.icon-small {
+  margin-right: 40rpx;
+  width: 48rpx;
+  height: 36rpx;
+  opacity: 0.3;
+}
+
+.avatar-small {
+  margin: 8rpx;
+  width: 48rpx;
+  height: 48rpx;
+  border-radius: 50%;
+}
+
+.info-show-address {
+  display: flex;
+  align-items: center;
+  padding: 40rpx 0 40rpx 0;
+  border-bottom: 1rpx solid var(--greyLight);
+}
+
+.wrapper-location {
+  display: flex;
+  flex-direction: column;
+}
+
+.box-comments {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding-top: 20rpx;
+}
+
+.box-create-comment {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+  padding-top: 20rpx;
+}
+
+.btn-comment {
+  width: 480rpx;
+  margin-bottom: 20rpx;
+  background-color: rgb(245,245,245);
+  font-size: 24rpx;
+  color: var(--greyDark);
+  border-radius: 36rpx;
+}
