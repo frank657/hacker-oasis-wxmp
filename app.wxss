@@ -1,3 +1,5 @@
+@import 'stylingsheets/layout/layout';
+
 /**app.wxss**/
 .container {
   height: 100%;
