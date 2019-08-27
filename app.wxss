@@ -1,3 +1,4 @@
+@import 'stylingsheets/components/components';
 @import 'stylingsheets/layout/layout';
 
 /**app.wxss**/

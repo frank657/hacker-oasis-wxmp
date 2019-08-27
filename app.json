@@ -1,8 +1,24 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/projects/projects",
+    "pages/profile/profile",
+    "pages/project_show/project_show"
   ],
+  "tabBar": {
+    "color": "#ADADAD",
+    "selectedColor": "#478DE9",
+    "list": [
+      {
+        "pagePath": "pages/projects/projects",
+        "text": "未确认"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "已确认"
+      }
+    ]
+  },
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
