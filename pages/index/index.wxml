@@ -14,7 +14,7 @@
       </image>
     </view>
   <view>
-    <button class="btn btn-ghost" bindtap="goToProjectsPage">Enter</button>
+    <button class="btn btn-ghost" bindtap="goToProjects">Enter</button>
   </view>
   </view>
 </view>

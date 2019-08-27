@@ -1,7 +1,7 @@
 page {
   --white: #fff;
   --greyLight: #efefef;
-  --grey: #ccc;
+  --grey: #bebebe;
   --greyDark: #444444;
   --yellow: #F2C94C;
   --orange: #F08302;

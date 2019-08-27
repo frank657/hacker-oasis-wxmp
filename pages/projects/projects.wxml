@@ -1,2 +1,22 @@
 <!--pages/projects/projects.wxml-->
-<text>pages/projects/projects.wxml</text>
+<text bindtap="clickMe">pages/projects/projects.wxml</text>
+
+
+
+<!-- getting data -->
+<block wx:if="{{projects.length > 0}}">
+  <view wx:for="{{projects}}" wx:for-item='project' wx:key>
+    <view data-id="{{project.id}}" bindtap="bindView" class="card-product" >
+      <view class="h2">{{project.name}}</view>
+      <view class="p">{{project.description}}</view>
+    </view>
+</view>
+</block>
+<block wx:else>
+  <view class="h3">There's nothing here yet!</view>
+</block>
+<!-- end getting data -->
+
+<view class="ma20">
+  <card wx:for="{{[1,2,3,4,5]}}"/>
+</view>
