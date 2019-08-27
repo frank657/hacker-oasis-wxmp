@@ -9,6 +9,13 @@ Page({
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
+
+  goToProjectsPage: function () {
+      wx.switchTab({
+        url: '/pages/projects/projects'
+      })
+  },
+
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
