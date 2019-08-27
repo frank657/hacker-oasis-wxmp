@@ -16,3 +16,7 @@
   <view class="h3">There's nothing here yet!</view>
 </block>
 <!-- end getting data -->
+
+<view class="ma20">
+  <card wx:for="{{[1,2,3,4,5]}}"/>
+</view>

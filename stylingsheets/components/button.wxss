@@ -25,8 +25,11 @@ button cover-view {
 
 .btn {
   text-align:center;
-  /* padding:10px; */
-  border-radius:10px;
+  padding-top: 16rpx;
+  padding-bottom: 16rpx;
+  padding-left: 40rpx;
+  padding-right: 40rpx;
+  border-radius:5rpx;
 }
 
 .btn-sm {

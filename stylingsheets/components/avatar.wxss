@@ -1,14 +1,14 @@
 .avatar-sm {
-  width:30px;
-  height:30px;
+  width:60rpx;
+  height:60rpx;
   border-radius:50%;
   flex-shrink: 0;
   flex-grow: 0;
 }
 
 .avatar-md {
-  width:45px;
-  height:45px;
+  width:90rpx;
+  height:90rpx;
   border-radius:50%;
   flex-shrink: 0;
   flex-grow: 0;
@@ -16,8 +16,8 @@
 }
 
 .avatar-ml {
-  width:80px;
-  height:80px;
+  width:160rpx;
+  height:160rpx;
   border-radius:50%;
   flex-shrink: 0;
   flex-grow: 0;
@@ -25,8 +25,8 @@
 }
 
 .avatar-lg {
-  width:120px;
-  height:120px;
+  width:240rpx;
+  height:240rpx;
   border-radius:50%;
   flex-shrink: 0;
   flex-grow: 0;

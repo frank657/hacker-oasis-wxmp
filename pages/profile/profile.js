@@ -5,7 +5,12 @@ Page({
    * Page initial data
    */
   data: {
+    sessionTabActive: true
+  },
 
+  changeTab(e) {
+    const sessionTabActive = e.target.dataset.tab === 'sessionTab'
+    this.setData({ sessionTabActive })
   },
 
   /**
