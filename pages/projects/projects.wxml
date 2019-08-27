@@ -1,2 +1,3 @@
-<!--pages/projects/projects.wxml-->
-<text>pages/projects/projects.wxml</text>
+<view class="ma20">
+  <card wx:for="{{[1,2,3,4,5]}}"/>
+</view>

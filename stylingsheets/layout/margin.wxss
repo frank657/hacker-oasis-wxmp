@@ -15,6 +15,10 @@
   margin: 10rpx;
 }
 
+.ma20 {
+  margin: 20rpx;
+}
+
 .mb {
   margin-bottom: 10rpx;
 }
@@ -34,6 +38,11 @@
 .my {
   margin-top: 10rpx;
   margin-bottom: 10rpx;
+}
+
+.my20 {
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
 }
 
 .mx {
@@ -104,6 +113,10 @@
 /* PADDINGS */
 .pa {
   padding: 10rpx;
+}
+
+.pa20 {
+  padding: 20rpx;
 }
 
 .pb {

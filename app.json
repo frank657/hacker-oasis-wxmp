@@ -23,6 +23,10 @@
       }
     ]
   },
+  "usingComponents": {
+    "card": "/components/card/card",
+    "card-alt": "/components/card/card-alt"
+  },
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",

@@ -1,2 +1,29 @@
-<!--pages/profile/profile.wxml-->
-<text>pages/profile/profile.wxml</text>
+<view class="d-flex flex-column item-center box-border"
+  style="padding-top: 100rpx; padding-bottom: 100rpx;">
+  <image class="avatar-ml mb30" src="/images/placeholder.png"></image>
+  <text class="mb20">Nicole</text>
+  <view class="d-flex item-center">
+    <image class="icon-mini mr" src="/images/pin.png"></image>
+    <text class="text-grey text-size-sbody">Shanghai</text>
+  </view>
+</view>
+
+<view class="d-flex mb50">
+  <view 
+    class="w50 d-flex space-around bold {{sessionTabActive?'text-red':'text-grey'}}"
+    data-tab="sessionTab"
+    bindtap="changeTab">
+    hack sessions
+  </view>
+  <view 
+    class="w50 d-flex space-around bold {{sessionTabActive?'text-grey':'text-red'}}"
+    data-tab="projectTab"
+    bindtap="changeTab">
+    my projects
+  </view>
+</view>
+
+<view class="ma20">
+  <card-alt wx:if="{{sessionTabActive}}" wx:for="{{[1,2,3,4,5]}}" wx:key/>
+  <card wx:if="{{!sessionTabActive}}" wx:for="{{[1,2,3,4,5]}}" wx:key/>
+</view>
