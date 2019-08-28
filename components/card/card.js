@@ -4,7 +4,10 @@ Component({
    * Component properties
    */
   properties: {
-
+    project: {
+      type: Object,
+      default: {}
+    }
   },
 
   /**

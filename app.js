@@ -36,6 +36,7 @@ App({
   },
   globalData: {
     userInfo: null,
-    host: "http://localhost:3000"
+    host: "http://localhost:3000/api/v1/",
+    // host: 'real server'
   }
 })
