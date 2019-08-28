@@ -5,17 +5,12 @@ App({
     // var logs = wx.getStorageSync('logs') || []
     // logs.unshift(Date.now())
     // wx.setStorageSync('logs', logs)
-    const host = "http://localhost:3000"
-    wx.login({
-      success: (res) => {
-        console.log(res)
-      }
-    })
 
     // 登录
     wx.login({
       success: res => {
         // 发送 res.code 到后台换取 openId, sessionKey, unionId
+        console.log(res)
       }
     })
     // 获取用户信息
@@ -40,6 +35,7 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    host: "http://localhost:3000"
   }
 })
