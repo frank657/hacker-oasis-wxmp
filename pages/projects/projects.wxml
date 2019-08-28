@@ -10,7 +10,7 @@
       <view class="h2">{{project.name}}</view>
       <view class="p">{{project.description}}</view>
     </view>
-</view>
+  </view>
 </block>
 <block wx:else>
   <view class="h3">There's nothing here yet!</view>
@@ -18,5 +18,7 @@
 <!-- end getting data -->
 
 <view class="ma20">
-  <card wx:for="{{[1,2,3,4,5]}}"/>
+  <block wx:for="{{projects}}" >
+    <card project="{{item}}"/>
+  </block>
 </view>

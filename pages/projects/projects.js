@@ -1,3 +1,5 @@
+const App = getApp()
+
 // pages/projects/projects.js
 Page({
 
@@ -5,23 +7,28 @@ Page({
    * Page initial data
    */
   data: {
-    projects: []
+    projects: [
+      {name: 'Boat'},
+      {name: 'Test'},
+      {name: 'Boat'},
+      {name: 'Boat'}
+    ]
   },
 
   /**
    * Lifecycle function--Called when page load
    */
   onLoad: function (options) {
-    console.log('IN onLoad')
-    let page = this;
-      wx.request({
-        url: 'http://localhost:3000/api/v1/projects',
-        success: function(res) {
-          console.log(111, res.data);
+    const host = App.globalData.host
+    // let page = this;
+    //   wx.request({
+    //     url: host + 'projects',
+    //     success: function(res) {
+    //       console.log(111, res.data);
           
-          page.setData(res.data);
-        }
-      })
+    //       page.setData(res.data);
+    //     }
+    //   })
     },   
   /**
    * Lifecycle function--Called when page is initially rendered
