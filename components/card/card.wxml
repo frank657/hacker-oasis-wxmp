@@ -5,7 +5,7 @@
     src="/images/placeholder.png"></image>
     
   <view class="d-flex space-between item-center my">
-    <text class="text-size-sheader bold">Awesome Project</text>
+    <text class="text-size-sheader bold">{{project.name}}</text>
     <image class="icon" src="/images/map.png"></image>
   </view>
 
