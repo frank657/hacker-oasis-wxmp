@@ -2,7 +2,7 @@
 <view class="container-page">
   <view class="header-show">
     <view>
-      <image class="avatar-large" src="../../images/avatars/bingq.jpg" mode="cover"></image>
+      <image class="avatar-ml" src="../../images/avatars/bingq.jpg" mode="cover"></image>
     </view>
     <view class="header-text">
       <view>
@@ -25,7 +25,7 @@
     <text class="h1 text-dark-grey">Sat, 31 Sep</text>
     <text class="h3 text-dark-grey">10:00AM</text>
     <view class="row-avatars">
-      <image class="icon mr" src="/images/attendees.png"></image>
+      <image class="icon-sm mr" src="/images/attendees.png"></image>
       <image class="avatar-small" src="../../images/avatars/bingq.jpg"></image>
       <image class="avatar-small" src="../../images/avatars/jimmyc.jpg"></image>
       <image class="avatar-small" src="../../images/avatars/ericd.jpg"></image>
@@ -33,12 +33,38 @@
     </view>
   </view>
   <view class="info-show-address">
-    <image class="icon mr" src="/images/location.png"></image>
+    <image class="icon-sm mr" src="/images/location.png"></image>
     <view class="wrapper-location">
       <text class="p text-dark-grey">XNode, Huaqiao Mansion, 129 West Yan'an Road, Shanghai</text>
       <text class="p-small text-grey">1.4km away from you</text>
     </view>
   </view>
   <view class="box-comments">
+    <view class="comment">
+      <image class="avatar-sq" style="margin: 0;" src="../../images/avatars/jimmyc.jpg"></image>
+      <view class="comment-section ml">
+        <text class="comment-section-header p-small text-grey">Jimmy Chen - 2 hours ago</text>
+        <view class="comment-text-box">
+          <text class="text-dark-grey">Testing the comment design with enough text to span multiple lines.</text>
+        </view>
+      </view>
+    </view>
+    <view class="comment self">
+      <image class="avatar-sq" style="margin: 0;" src="../../images/avatars/bingq.jpg"></image>
+      <view class="comment-section mr">
+        <view class="comment-text-box">
+          <text class="text-dark-grey">Testing single line.</text>
+        </view>
+      </view>
+    </view>
+    <view class="comment">
+      <image class="avatar-sq" style="margin: 0;" src="../../images/avatars/nicoleg.jpg"></image>
+      <view class="comment-section ml">
+        <text class="comment-section-header p-small text-grey">Nicole G - 44 minutes ago</text>
+        <view class="comment-text-box">
+          <text class="text-dark-grey">Testing another comment with enough text to span multiple lines.</text>
+        </view>
+      </view>
+    </view>
   </view>
 </view>
