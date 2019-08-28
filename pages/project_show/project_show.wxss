@@ -69,9 +69,8 @@
 
 .icon-small {
   margin-right: 40rpx;
+  height: 42rpx;
   width: 48rpx;
-  height: 36rpx;
-  opacity: 0.3;
 }
 
 .avatar-small {
@@ -98,21 +97,4 @@
   flex-direction: column;
   flex-grow: 1;
   padding-top: 20rpx;
-}
-
-.box-create-comment {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-  justify-content: space-between;
-  padding-top: 20rpx;
-}
-
-.btn-comment {
-  width: 480rpx;
-  margin-bottom: 20rpx;
-  background-color: rgb(245,245,245);
-  font-size: 24rpx;
-  color: var(--greyDark);
-  border-radius: 36rpx;
 }
