@@ -25,7 +25,7 @@
     <text class="h1 text-dark-grey">Sat, 31 Sep</text>
     <text class="h3 text-dark-grey">10:00AM</text>
     <view class="row-avatars">
-      <image class="icon-small" src="../../images/icons/users-solid.svg"></image>
+      <image class="icon mr" src="/images/attendees.png"></image>
       <image class="avatar-small" src="../../images/avatars/bingq.jpg"></image>
       <image class="avatar-small" src="../../images/avatars/jimmyc.jpg"></image>
       <image class="avatar-small" src="../../images/avatars/ericd.jpg"></image>
@@ -33,17 +33,12 @@
     </view>
   </view>
   <view class="info-show-address">
-    <image class="icon-small" src="../../images/icons/map-marker-alt-solid.svg"></image>
+    <image class="icon mr" src="/images/location.png"></image>
     <view class="wrapper-location">
       <text class="p text-dark-grey">XNode, Huaqiao Mansion, 129 West Yan'an Road, Shanghai</text>
       <text class="p-small text-grey">1.4km away from you</text>
     </view>
   </view>
   <view class="box-comments">
-    <view class="box-create-comment">
-      <button class="btn btn-comment" bindtap="#">Post a comment</button>
-      <image class="avatar-small" src="../../images/avatars/jimmyc.jpg" style="margin: 0;"></image>
-    </view>
-    
   </view>
 </view>
