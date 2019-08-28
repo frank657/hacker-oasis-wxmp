@@ -19,6 +19,6 @@
     <view>
       <image wx:for="{{[1,2,3,4,5]}}" class="avatar-sm mr" src="/images/placeholder.png"></image>
     </view>
-    <view class="btn text-blue border border-blue bold">Attend</view>
+    <view class="btn text-blue border border-blue bold" bindtap="#">Attend</view>
   </view>
 </view>
