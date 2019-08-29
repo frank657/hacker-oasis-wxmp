@@ -11,10 +11,13 @@
 
   <view class="d-flex flex-column">
     <text class="text-grey text-size-sbody">Next Hack Session</text>
-    <!-- how can I get this information -->
-    <!-- do I need @projects.each? -->
-    <text>{{project.hacker_days.date}}</text>
-    <text>{{project.hacker_days.address}}</text>
+    <text>{{project.description}}</text>
+    
+    <text>{{hackerday.address}}</text>
+  </view>
+
+  <view wx:for="{{project.hacker_days}}" wx:for-item='day'>
+    <view>{{day.address}}</view>
   </view>
 
   <view class="mt20 d-flex space-between item-center">

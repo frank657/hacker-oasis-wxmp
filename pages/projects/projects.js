@@ -8,11 +8,17 @@ Page({
    */
   data: {
     projects: [
-      {name: 'Boat'},
-      {name: 'Test'},
-      {name: 'Boat'},
-      {name: 'Boat'}
+      // {name: 'Boat'},
+      // {name: 'Test'},
+      // {name: 'Boat'},
+      // {name: 'Boat'}
+    ],
+    hackerday: [
+      {address: 'hello'}
+
+
     ]
+
   },
 
   /**
