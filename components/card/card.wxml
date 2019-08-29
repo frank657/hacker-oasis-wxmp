@@ -11,13 +11,10 @@
 
   <view class="d-flex flex-column">
     <text class="text-grey text-size-sbody">Next Hack Session</text>
-    <text>{{project.description}}</text>
-    
-    <text>{{hackerday.address}}</text>
-  </view>
-
-  <view wx:for="{{project.hacker_days}}" wx:for-item='day'>
+    <view wx:for="{{project.hacker_days}}" wx:for-item='day'>
+    <view>{{day.date}}</view>
     <view>{{day.address}}</view>
+    </view>
   </view>
 
   <view class="mt20 d-flex space-between item-center">
