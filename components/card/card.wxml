@@ -11,8 +11,10 @@
 
   <view class="d-flex flex-column">
     <text class="text-grey text-size-sbody">Next Hack Session</text>
-    <text>10:00AM, Saturday, 31 September 2019</text>
-    <text>Xnode, 129 West Yan’an Road, Shanghai</text>
+    <!-- how can I get this information -->
+    <!-- do I need @projects.each? -->
+    <text>{{project.hacker_days.date}}</text>
+    <text>{{project.hacker_days.address}}</text>
   </view>
 
   <view class="mt20 d-flex space-between item-center">
