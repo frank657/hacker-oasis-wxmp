@@ -11,14 +11,16 @@
 
   <view class="d-flex flex-column">
     <text class="text-grey text-size-sbody">Next Hack Session</text>
-    <text>10:00AM, Saturday, 31 September 2019</text>
-    <text>Xnode, 129 West Yan’an Road, Shanghai</text>
+    <view wx:for="{{project.hacker_days}}" wx:for-item='day'>
+    <view>{{day.date}}</view>
+    <view>{{day.address}}</view>
+    </view>
   </view>
 
   <view class="mt20 d-flex space-between item-center">
     <view>
       <image wx:for="{{[1,2,3,4,5]}}" class="avatar-sm mr" src="/images/placeholder.png"></image>
     </view>
-    <view class="btn text-blue border border-blue bold">Attend</view>
+    <view class="btn text-blue border border-blue bold" bindtap="#">Attend</view>
   </view>
 </view>

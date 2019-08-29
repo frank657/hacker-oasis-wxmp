@@ -98,3 +98,32 @@
   flex-grow: 1;
   padding-top: 20rpx;
 }
+
+.comment {
+  display: flex;
+  margin-bottom: 20rpx;
+}
+
+.self {
+  flex-direction: row-reverse;
+}
+
+.comment-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 70%;
+}
+
+.comment-section-header {
+  margin-bottom: 10rpx;
+  display: flex;
+  flex-direction: column;
+  height: 20rpx;
+}
+
+.comment-text-box {
+  padding: 20rpx;
+  background-color: rgb(245,245,245);
+  border-radius: 8rpx;
+}
