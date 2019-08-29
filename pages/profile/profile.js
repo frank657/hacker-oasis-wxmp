@@ -1,3 +1,5 @@
+const App = getApp()
+
 // pages/profile/profile.js
 Page({
 
@@ -5,6 +7,7 @@ Page({
    * Page initial data
    */
   data: {
+    users: [],
     sessionTabActive: true
   },
 
@@ -23,6 +26,7 @@ Page({
     wx.request({
       url: "http://localhost:3000/api/v1/users/1",
       success: function (res) {
+        
         console.log(111, res.data);
 
         // Update local data
