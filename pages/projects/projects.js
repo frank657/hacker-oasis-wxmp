@@ -20,15 +20,18 @@ Page({
    */
   onLoad: function (options) {
     const host = App.globalData.host
-    // let page = this;
-    //   wx.request({
-    //     url: host + 'projects',
-    //     success: function(res) {
-    //       console.log(111, res.data);
+    let page = this;
+
+    // Get api data
+      wx.request({
+        url: host + 'projects',
+        success: function(res) {
+          console.log(111, res.data);
           
-    //       page.setData(res.data);
-    //     }
-    //   })
+          // Update local data
+          page.setData(res.data);
+        }
+      })
     },   
   /**
    * Lifecycle function--Called when page is initially rendered
