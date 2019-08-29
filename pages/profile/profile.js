@@ -17,6 +17,18 @@ Page({
    * Lifecycle function--Called when page load
    */
   onLoad: function (options) {
+    let page = this;
+
+    // Get api data
+    wx.request({
+      url: "http://localhost:3000/api/v1/users/1",
+      success: function (res) {
+        console.log(111, res.data);
+
+        // Update local data
+        page.setData(res.data);
+      }
+    })
 
   },
 
