@@ -25,6 +25,7 @@ Page({
     // Get api data
     wx.request({
       url: "http://localhost:3000/api/v1/users/1",
+      // url: "http://localhost:3000/api/v1/users/${}",
       success: function (res) {
         
         console.log(111, res.data);
