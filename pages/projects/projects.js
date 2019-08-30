@@ -13,6 +13,13 @@ Page({
 
   },
 
+  clickMe: function (event) {
+    console.log(event);
+    wx.navigateTo ({
+      url: '../../pages/project_show/project_show'
+    })
+  },
+
   /**
    * Lifecycle function--Called when page load
    */
@@ -25,12 +32,12 @@ Page({
         url: host + 'projects',
         success: function(res) {
           console.log(111, res.data);
-          
+
           // Update local data
           page.setData(res.data);
         }
       })
-    },   
+    },
   /**
    * Lifecycle function--Called when page is initially rendered
    */

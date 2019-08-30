@@ -7,7 +7,7 @@ Page({
    * Page initial data
    */
   data: {
-    projects:[]
+    
   },
 
   /**
@@ -18,16 +18,14 @@ Page({
 
     // Get api data
     wx.request({
-      url: "http://localhost:3000/api/v1/projects",
+      url: `http://localhost:3000/api/v1/projects/${options.id}`,
       success: function (res) {
-      
-        console.log(111, res.data);
+        console.log(res.data);
 
         // Update local data
         page.setData(res.data);
       }
     })
-
   },
 
   /**

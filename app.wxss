@@ -13,7 +13,7 @@
 } 
 
 .container-page {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   padding: 20rpx 20rpx 0rpx 20rpx;
