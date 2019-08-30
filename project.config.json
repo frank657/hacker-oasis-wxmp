@@ -65,6 +65,20 @@
 					"id": -1,
 					"name": "pages/project_show/project_show",
 					"pathName": "pages/project_show/project_show",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "profile",
+					"pathName": "pages/profile/profile",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "project create",
+					"pathName": "pages/project_create/project_create",
 					"scene": null
 				}
 			]

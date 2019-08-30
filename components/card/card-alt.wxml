@@ -1,19 +1,22 @@
 <!--components/card/card.wxml-->
 <view class="pa20 mb30 box-border" style="box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);">
-  <text class="text-size-sheader bold">Sat, 31 Sep, 10:00</text>
+  <view class="d-flex flex-column">
+    <text class="text-size-sheader bold">Sat, 31 Sep</text>
+    <text class="text-size-sheader bold">10:00 AM</text>
+  </view>
 
-  <view class="d-flex item-center mt20 mb">
-    <image class="icon-sm mr" src="/images/project.png"></image>
+  <view class="d-flex item-center mt20 mb20">
+    <image class="icon-sm mr20" src="/images/project.png"></image>
     <text>Awesome Project</text>
   </view>
 
-  <view class="d-flex item-center mb">
-    <image class="icon-sm mr" src="/images/location.png"></image>
+  <view class="d-flex item-center mb20">
+    <image class="icon-sm mr20" src="/images/location.png"></image>
     <text>Xnode, 129 West Yan’an Road, Shanghai</text>
   </view>
 
   <view class="d-flex item-center">
-    <image class="icon-sm mr" src="/images/attendees.png"></image>
+    <image class="icon-sm mr20" src="/images/attendees.png"></image>
     <view>
       <image wx:for="{{[1,2,3,4,5]}}" class="avatar-sm mr" src="/images/placeholder.png"></image>
     </view>
