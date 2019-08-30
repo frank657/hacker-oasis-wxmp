@@ -1,3 +1,5 @@
+const App = getApp()
+
 // pages/profile/profile.js
 Page({
 
@@ -5,6 +7,7 @@ Page({
    * Page initial data
    */
   data: {
+    users: [],
     sessionTabActive: true
   },
 
@@ -17,6 +20,20 @@ Page({
    * Lifecycle function--Called when page load
    */
   onLoad: function (options) {
+    let page = this;
+
+    // Get api data
+    wx.request({
+      url: "http://localhost:3000/api/v1/users/1",
+      // url: "http://localhost:3000/api/v1/users/${}",
+      success: function (res) {
+        
+        console.log(111, res.data);
+
+        // Update local data
+        page.setData(res.data);
+      }
+    })
 
   },
 

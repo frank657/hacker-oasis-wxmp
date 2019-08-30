@@ -7,14 +7,8 @@ Page({
    * Page initial data
    */
   data: {
-    projects: [
-    ],
-    hackerday: [
-      {address: 'hello'}
-
-
-    ]
-
+    projects: [],
+    hackerday: []
   },
 
   clickMe: function (event) {
@@ -36,12 +30,12 @@ Page({
         url: host + 'projects',
         success: function(res) {
           console.log(111, res.data);
-          
+
           // Update local data
           page.setData(res.data);
         }
       })
-    },   
+    },
   /**
    * Lifecycle function--Called when page is initially rendered
    */
