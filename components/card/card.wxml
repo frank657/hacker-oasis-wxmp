@@ -1,12 +1,14 @@
 <!--components/card/card.wxml-->
-<view class="pa20 mb30 box-border" style="box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);" bindtap="clickMe" data-id="{{project.id}}">
+<view class="pa20 mb30 box-border pos-relative" style="box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);">
   <image style="width: 100%; height: 200rpx"
     mode="aspectFill"
     src="{{project.cover_photo.url}}"></image>
+  
+  <view class="card-filter pos-absolute top0 bottom0 right0 left0" style="background-color: transparent;" bindtap="clickMe" data-id="{{project.id}}"></view>
 
   <view class="d-flex space-between item-center my">
     <text class="text-size-sheader bold">{{project.name}}</text>
-    <image class="icon" src="/images/map.png"></image>
+    <image class="icon" src="/images/map.png" bindtap="goToMap" style="z-index: 999;"></image>
   </view>
 
   <view class="d-flex flex-column">
@@ -26,7 +28,7 @@
 
     <image wx:for="{{[1,2,3,4,5]}}" class="avatar-sm mr" src="/images/placeholder.png"></image>
     </view>
-    <view class="btn text-blue border border-blue bold" bindtap="#">Attend</view>
+    <view class="btn text-blue border border-blue bold" bindtap="#" style="z-index: 999">Attend</view>
   </view>
 
     </view>

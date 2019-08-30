@@ -14,7 +14,7 @@
     </view>
   </view>
   <view class="description-project">
-    <view class="img-project-square" style="background-image: url(https://images.unsplash.com/photo-1521737711867-e3b97375f902);">
+    <view class="img-project-square" style="background-image: url({{cover_photo.url}});">
     </view>
     <view class="description-project-text">
       <text class="p">More about the project, enough to make this take up multiple lines.</text>
@@ -22,7 +22,7 @@
   </view>
   <view class="info-show-hacksession">
     <text class="h3 text-blue">NEXT HACK SESSION</text>
-    <text class="h1 text-dark-grey">Sat, 31 Sep</text>
+    <text class="h1 text-dark-grey">{{hacker_session[0].date}}</text>
     <text class="h3 text-dark-grey">10:00AM</text>
     <view class="row-avatars">
       <image class="icon-sm mr" src="/images/attendees.png"></image>
@@ -35,7 +35,7 @@
   <view class="info-show-address">
     <image class="icon-sm mr" src="/images/location.png"></image>
     <view class="wrapper-location">
-      <text class="p text-dark-grey">XNode, Huaqiao Mansion, 129 West Yan'an Road, Shanghai</text>
+      <text class="p text-dark-grey">{{hacker_session[0].address}}</text>
       <text class="p-small text-grey">1.4km away from you</text>
     </view>
   </view>
