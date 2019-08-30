@@ -1,8 +1,6 @@
 <!--pages/projects/projects.wxml-->
-<text bindtap="clickMe">Go to show page</text>
-
 <view class="ma20">
-  <block wx:for="{{projects}}" >
+  <block wx:for="{{projects}}">
     <card project="{{item}}"/>
   </block>
 </view>

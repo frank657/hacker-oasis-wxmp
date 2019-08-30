@@ -8,10 +8,6 @@ Page({
    */
   data: {
     projects: [
-      // {name: 'Boat'},
-      // {name: 'Test'},
-      // {name: 'Boat'},
-      // {name: 'Boat'}
     ],
     hackerday: [
       {address: 'hello'}
@@ -21,7 +17,8 @@ Page({
 
   },
 
-  clickMe: function () {
+  clickMe: function (event) {
+    console.log(event);
     wx.navigateTo ({
       url: '../../pages/project_show/project_show'
     })
