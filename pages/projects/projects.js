@@ -8,7 +8,9 @@ Page({
    */
   data: {
     projects: [],
-    hackerday: []
+    hackerday: [],
+    photo_url: []
+
   },
 
   /**
