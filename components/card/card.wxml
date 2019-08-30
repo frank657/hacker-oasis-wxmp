@@ -17,23 +17,17 @@
 
     <view class="mt20 d-flex space-between item-center">
     <view>
+    <!-- we need to get the attendat avatar -->
+    <!-- here we have the attendant id -->
     <view wx:for="{{day.attendants}}" wx:for-item='attendant'>
     <view>{{attendant}}</view>
-    
     </view>
-      <image wx:for="{{[1,2,3,4,5]}}" class="avatar-sm mr" src="/images/placeholder.png"></image>
+
+    <image wx:for="{{[1,2,3,4,5]}}" class="avatar-sm mr" src="/images/placeholder.png"></image>
     </view>
     <view class="btn text-blue border border-blue bold" bindtap="#">Attend</view>
   </view>
 
-
     </view>
   </view>
-
-  <!-- <view class="mt20 d-flex space-between item-center">
-    <view>
-      <image wx:for="{{[1,2,3,4,5]}}" class="avatar-sm mr" src="/images/placeholder.png"></image>
-    </view>
-    <view class="btn text-blue border border-blue bold" bindtap="#">Attend</view>
-  </view> -->
 </view>
