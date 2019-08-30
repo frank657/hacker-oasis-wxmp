@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/projects/projects",
     "pages/profile/profile",
-    "pages/project_show/project_show"
+    "pages/project_show/project_show",
+    "pages/project_create/project_create"
   ],
   "tabBar": {
     "color": "#ADADAD",

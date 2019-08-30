@@ -1,43 +1,27 @@
-const App = getApp()
-
-// pages/projects/projects.js
+// pages/project_create/project_create.js
 Page({
 
   /**
    * Page initial data
    */
   data: {
-    projects: [],
-    hackerday: [],
-    photo_url: []
-
+    scroll: 0
   },
 
-  clickMe: function (event) {
-    console.log(event);
-    wx.navigateTo ({
-      url: '../../pages/project_show/project_show'
+  scrollSteps() {
+    this.setData({
+      scroll: this.data.scroll == 4 ? 0 : this.data.scroll + 1
     })
+    console.log(this.data.scroll)
   },
 
   /**
    * Lifecycle function--Called when page load
    */
   onLoad: function (options) {
-    const host = App.globalData.host
-    let page = this;
 
-    // Get api data
-      wx.request({
-        url: host + 'projects',
-        success: function(res) {
-          console.log(111, res.data);
+  },
 
-          // Update local data
-          page.setData(res.data);
-        }
-      })
-    },
   /**
    * Lifecycle function--Called when page is initially rendered
    */

@@ -5,7 +5,6 @@
     src="{{project.cover_photo.url}}"></image>
   
   <view class="card-filter pos-absolute top0 bottom0 right0 left0" style="background-color: transparent;" bindtap="clickMe" data-id="{{project.id}}"></view>
-
   <view class="d-flex space-between item-center my">
     <text class="text-size-sheader bold">{{project.name}}</text>
     <image class="icon" src="/images/map.png" bindtap="goToMap" style="z-index: 999;"></image>
