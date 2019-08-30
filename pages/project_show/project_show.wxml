@@ -67,4 +67,9 @@
       </view>
     </view>
   </view>
+
+  <view class="invisible-footer"></view>
+  <view class="box-cta pos-fixed">
+    <button class="btn-red" bindtap="#">Attend</button>
+  </view>
 </view>

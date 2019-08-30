@@ -21,6 +21,12 @@ Page({
 
   },
 
+  clickMe: function () {
+    wx.navigateTo ({
+      url: '../../pages/project_show/project_show'
+    })
+  },
+
   /**
    * Lifecycle function--Called when page load
    */

@@ -127,3 +127,22 @@
   background-color: rgb(245,245,245);
   border-radius: 8rpx;
 }
+
+.box-cta {
+  height: 180rpx;
+  width: 100%;
+  bottom: 0rpx;
+  right: 0rpx;
+  background-color: #fff;
+  border-top: 1px solid var(--greyLight);
+}
+
+.btn-red {
+  color: white;
+  margin: 32rpx 48rpx 64rpx 48rpx;
+  padding: 8rpx 24rpx;
+  border-radius: 10rpx;
+  background:var(--red);
+  font-weight: bold;
+  transition: background 0.3s ease;
+}

@@ -23,7 +23,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.8.0",
 	"appid": "wx57ab05e477808250",
-	"projectname": "hacker-oasis",
+	"projectname": "hacker-oasis-wxmp",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},

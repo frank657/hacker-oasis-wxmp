@@ -1,5 +1,5 @@
 <!--pages/projects/projects.wxml-->
-<text bindtap="clickMe">pages/projects/projects.wxml</text>
+<text bindtap="clickMe">Go to show page</text>
 
 <view class="ma20">
   <block wx:for="{{projects}}" >
