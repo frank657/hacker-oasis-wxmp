@@ -70,8 +70,15 @@
 				},
 				{
 					"id": -1,
-					"name": "pages/profile/profile",
+					"name": "profile",
 					"pathName": "pages/profile/profile",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "project create",
+					"pathName": "pages/project_create/project_create",
 					"scene": null
 				}
 			]
