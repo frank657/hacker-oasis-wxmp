@@ -7,18 +7,8 @@ Page({
    * Page initial data
    */
   data: {
-    projects: [
-      // {name: 'Boat'},
-      // {name: 'Test'},
-      // {name: 'Boat'},
-      // {name: 'Boat'}
-    ],
-    hackerday: [
-      {address: 'hello'}
-
-
-    ]
-
+    projects: [],
+    hackerday: []
   },
 
   /**
